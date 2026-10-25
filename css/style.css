@@ -1,0 +1,119 @@
+/* Universal Selector and Box Sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Type Selectors */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFAEB;
+    color: #0F0603;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0F0603;
+    color: #FFFAEB;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 5px solid #DCAF49;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #0F0603;
+    border-bottom: 2px solid #DCAF49;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #0F0603;
+}
+
+p {
+    margin: 15px 0;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px 12px;
+}
+
+nav a {
+    color: #FFFAEB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    color: #DCAF49;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #FFFFFF;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 2px solid #C6A963;
+    border-radius: 8px;
+}
+
+article {
+    background-color: #FFFAEB;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #DCAF49;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #DCAF49;
+    border-radius: 8px;
+}
+
+/* Class Selector */
+.featured-project {
+    background-color: #FFFAEB;
+    padding: 20px;
+    margin: 15px 0;
+    border: 2px solid #DCAF49;
+    border-radius: 6px;
+}
+
+/* ID Selector */
+#skills {
+    background-color: #F8EBC9;
+    padding: 25px;
+    margin-top: 25px;
+    border: 2px solid #C6A963;
+}
+
+/* Footer */
+footer {
+    background-color: #0F0603;
+    color: #FFFAEB;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
