@@ -117,3 +117,25 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+
+padding: 12px;
+}
+
+section {
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.project-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.featured-project {
+    padding: 16px;
+}
+
+#skills {
+    padding: 16px;
+}
+}
