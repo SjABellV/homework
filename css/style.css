@@ -139,3 +139,26 @@ section {
     padding: 16px;
 }
 }
+/* Accessible keyboard focus */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #DCAF49;
+    outline-offset: 4px;
+}
+
+/* Skip link */
+.skip-link {
+    position: absolute;
+    left: 10px;
+    top: -100px;
+    background: #FFFFFF;
+    color: #0F0603;
+    padding: 12px;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
